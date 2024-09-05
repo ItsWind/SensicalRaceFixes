@@ -1,0 +1,12 @@
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\bin\x64\Debug\net472\MixedRaces.dll
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\bin\x64\Debug\net472\MixedRaces.pdb
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\bin\x64\Debug\net472\0Harmony.dll
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\bin\x64\Debug\net472\Mono.Cecil.dll
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\obj\x64\Debug\net472\MixedRaces.csproj.AssemblyReference.cache
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\obj\x64\Debug\net472\MixedRaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\obj\x64\Debug\net472\MixedRaces.AssemblyInfoInputs.cache
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\obj\x64\Debug\net472\MixedRaces.AssemblyInfo.cs
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\obj\x64\Debug\net472\MixedRaces.csproj.CoreCompileInputs.cache
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\obj\x64\Debug\net472\MixedRaces.csproj.CopyComplete
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\obj\x64\Debug\net472\MixedRaces.dll
+C:\Users\stric\source\repos\MixedRaces\MixedRaces\obj\x64\Debug\net472\MixedRaces.pdb

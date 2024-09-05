@@ -1,0 +1,12 @@
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\bin\x64\Debug\net472\SensicalRaceFixes.dll
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\bin\x64\Debug\net472\SensicalRaceFixes.pdb
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\bin\x64\Debug\net472\0Harmony.dll
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\bin\x64\Debug\net472\Mono.Cecil.dll
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\obj\x64\Debug\net472\SensicalRaceFixes.csproj.AssemblyReference.cache
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\obj\x64\Debug\net472\SensicalRaceFixes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\obj\x64\Debug\net472\SensicalRaceFixes.AssemblyInfoInputs.cache
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\obj\x64\Debug\net472\SensicalRaceFixes.AssemblyInfo.cs
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\obj\x64\Debug\net472\SensicalRaceFixes.csproj.CoreCompileInputs.cache
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\obj\x64\Debug\net472\SensicalRaceFixes.csproj.CopyComplete
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\obj\x64\Debug\net472\SensicalRaceFixes.dll
+C:\Users\stric\source\repos\SensicalRaceFixes\SensicalRaceFixes\obj\x64\Debug\net472\SensicalRaceFixes.pdb
