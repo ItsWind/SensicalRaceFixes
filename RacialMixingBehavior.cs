@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.Library;
 using TaleWorlds.SaveSystem;
 
 namespace SensicalRaceFixes {
@@ -13,26 +14,34 @@ namespace SensicalRaceFixes {
 
         public Dictionary<CharacterObject, CharacterRacialMix> AllCharacterRacialMixes = new();
 
+        private List<Hero> GetAllHeroes() {
+            List<Hero> allHeroes = Campaign.Current.AliveHeroes.ToList();
+            allHeroes.AddRange(Campaign.Current.DeadOrDisabledHeroes);
+            return allHeroes;
+        }
+
+        private void CreateCharacterRaceMixRecords() {
+            List<Hero> allHeroes = GetAllHeroes();
+
+            foreach (Hero hero in allHeroes)
+                CharacterRacialMix.CreateForExisting(hero);
+        }
+
         public RacialMixingBehavior() {
             Instance = this;
         }
 
         public override void RegisterEvents() {
-            CampaignEvents.OnGameLoadFinishedEvent.AddNonSerializedListener(this, () => {
-                List<Hero> allHeroes = Campaign.Current.AliveHeroes.ToList();
-                allHeroes.AddRange(Campaign.Current.DeadOrDisabledHeroes);
+            CampaignEvents.OnCharacterCreationIsOverEvent.AddNonSerializedListener(this, CreateCharacterRaceMixRecords);
 
-                foreach (Hero hero in allHeroes)
-                    CharacterRacialMix.CreateForExisting(hero);
-            });
+            CampaignEvents.OnGameLoadFinishedEvent.AddNonSerializedListener(this, CreateCharacterRaceMixRecords);
         }
 
         public override void SyncData(IDataStore dataStore) {
             dataStore.SyncData("AllCharacterRacialMixes", ref AllCharacterRacialMixes);
 
             if (dataStore.IsLoading) {
-                List<Hero> allHeroes = Campaign.Current.AliveHeroes.ToList();
-                allHeroes.AddRange(Campaign.Current.DeadOrDisabledHeroes);
+                List<Hero> allHeroes = GetAllHeroes();
 
                 foreach (KeyValuePair<CharacterObject, CharacterRacialMix> pair in AllCharacterRacialMixes.ToList()) {
                     // Remove characters that are no longer in campaign at all.

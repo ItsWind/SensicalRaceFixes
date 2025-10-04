@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SensicalRaceFixes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+936e3eb168293912cf5ef2bf912586454171c6f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SensicalRaceFixes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SensicalRaceFixes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]

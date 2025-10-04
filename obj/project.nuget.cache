@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tzkKRX43AxxqQB4xzstsgpBa3kProjy/rEYTkbUKJKDrgPHNgrAqAbSKefLr+klU2WGv7PM9kzZrPIfvkR1MZA==",
+  "dgSpecHash": "soYCTcRmPPU=",
   "success": true,
   "projectFilePath": "C:\\Users\\stric\\source\\repos\\SensicalRaceFixes\\SensicalRaceFixes\\SensicalRaceFixes.csproj",
   "expectedPackageFiles": [
@@ -9,5 +9,16 @@
     "C:\\Users\\stric\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\stric\\.nuget\\packages\\nullable\\1.3.0\\nullable.1.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json' 11.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    }
+  ]
 }

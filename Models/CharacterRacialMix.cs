@@ -25,7 +25,7 @@ namespace SensicalRaceFixes.Models {
         public void SetCharacterRace() {
             int raceToSet = 0;
             try {
-                raceToSet = Races.Aggregate((l, r) => l.Value >= r.Value ? l : r).Key;
+                raceToSet = Races.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
             }
             catch (InvalidOperationException) { }
 
